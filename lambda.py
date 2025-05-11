@@ -1,7 +1,7 @@
 import json
 import boto3
 
-ENDPOINT = ""huggingface-pytorch-tgi-inference-2025-05-11-09-43-31-576""
+ENDPOINT = "huggingface-pytorch-tgi-inference-2025-05-11-09-XXXX"
 
 sagemaker_runtime = boto3.client("sagemaker-runtime", region_name='us-east-1')
 
